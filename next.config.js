@@ -56,6 +56,7 @@ module.exports = {
       "www.notion.so",
     ],
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+    minimumCacheTTL: 600,
   },
   experimental: {
     scrollRestoration: true,
